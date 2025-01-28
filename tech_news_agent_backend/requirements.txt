@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+langgraph
+duckduckgo_search
+openai
+requests
+python-dotenv
+typing
+langchain-groq
