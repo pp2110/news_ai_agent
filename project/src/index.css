@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+.prose {
+  @apply text-gray-600;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply text-xl text-gray-800 font-semibold mt-6 mb-4;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose ul {
+  @apply list-disc list-inside mb-4;
+}
+
+.prose strong {
+  @apply text-gray-800 font-semibold;
+}
